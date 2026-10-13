@@ -1,0 +1,12 @@
+# CPU-only, no CUDA. Install torch CPU first to avoid CUDA wheels.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+sentence-transformers>=5.1.0
+transformers>=4.55.0
+accelerate>=1.0.0
+Pillow>=10.0.0
+numpy>=1.26.0
+tqdm>=4.66.0
+torchvision
+timm
+av
